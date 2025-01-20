@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function ProductItem({ product }) {
   return (
-    <div className=" m-5 shadow-lg hover:shadow-2xl hover:border rounded-t-2xl hover:cursor-pointer h-[300px]">
+    <div className="p-2 shadow-lg hover:shadow-2xl hover:border rounded-t-2xl hover:cursor-pointer h-[300px] border">
       <Link href={`/product-details/${product.id}`}>
         <Image
           src={product.image}
